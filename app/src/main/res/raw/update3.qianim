@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation xmlns:editor="http://www.ald.softbankrobotics.com/animation/editor" typeVersion="2.0" editor:fps="26">
+    <editor:clip editor:fps="26" editor:startFrame="0" editor:endFrame="97"/>
+    <ActuatorCurve fps="26" actuator="HeadPitch" mute="false" unit="radian">
+        <Key value="-0.349065848" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="HeadYaw" mute="false" unit="radian">
+        <Key value="0" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="LElbowRoll" mute="false" unit="radian">
+        <Key value="-1.25663705" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="LElbowYaw" mute="false" unit="radian">
+        <Key value="-0.296705971" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="LHand" mute="false" unit="dimensionless">
+        <Key value="1" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="LShoulderPitch" mute="false" unit="radian">
+        <Key value="-0.959931081" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="LShoulderRoll" mute="false" unit="radian">
+        <Key value="0.628318526" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="LWristYaw" mute="false" unit="radian">
+        <Key value="-0.610865233" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="RElbowRoll" mute="false" unit="radian">
+        <Key value="1.25663705" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="RElbowYaw" mute="false" unit="radian">
+        <Key value="0.296705971" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="RHand" mute="false" unit="dimensionless">
+        <Key value="1" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="RShoulderPitch" mute="false" unit="radian">
+        <Key value="-0.959931081" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="RShoulderRoll" mute="false" unit="radian">
+        <Key value="-0.628318526" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="RWristYaw" mute="false" unit="radian">
+        <Key value="0.610865233" frame="50"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="26" actuator="HipRoll" mute="false" unit="degree"/>
+    <ActuatorCurve fps="26" actuator="HipPitch" mute="false" unit="degree"/>
+    <ActuatorCurve fps="26" actuator="KneePitch" mute="false" unit="degree"/>
+</Animation>

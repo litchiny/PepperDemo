@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation xmlns:editor="http://www.ald.softbankrobotics.com/animation/editor" typeVersion="2.0" editor:fps="25">
+    <editor:clip editor:fps="25" editor:startFrame="0" editor:endFrame="113"/>
+    <ActuatorCurve fps="25" actuator="HeadYaw" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="HeadPitch" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="LShoulderPitch" mute="false" unit="degree">
+        <Key value="75.082962" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="LShoulderRoll" mute="false" unit="degree">
+        <Key value="29.9187012" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="LElbowYaw" mute="false" unit="degree">
+        <Key value="-10.1519432" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="LElbowRoll" mute="false" unit="degree">
+        <Key value="-71.1669006" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="LWristYaw" mute="false" unit="degree">
+        <Key value="-99.9224243" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="LHand" mute="false" unit="dimensionless">
+        <Key value="0.02" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="HipRoll" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="HipPitch" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="KneePitch" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="RShoulderPitch" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="RShoulderRoll" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="RElbowYaw" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="RElbowRoll" mute="false" unit="degree"/>
+    <ActuatorCurve fps="25" actuator="RWristYaw" mute="false" unit="degree">
+        <Key value="57.4168587" frame="28"/>
+    </ActuatorCurve>
+    <ActuatorCurve fps="25" actuator="RHand" mute="false" unit="dimensionless"/>
+</Animation>

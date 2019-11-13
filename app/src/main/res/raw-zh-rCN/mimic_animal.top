@@ -1,0 +1,5 @@
+topic: ~mimic_animal()
+
+proposal: %mimic_proposal 您想看我表演狗还是大象？
+    u1: (狗) 好的，我将表演狗的 bookmark %dog_mimic
+    u1: (大象) 好的，我将表演大象的 bookmark%elephant_mimic

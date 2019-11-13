@@ -1,0 +1,22 @@
+topic: ~hello()
+concept:(hello) ["你好" "你好呀" "嗨"]
+concept:(age_question) ["你多大了" "你几岁了" "你年龄多大"]
+concept:(age_answer) ["我今年5岁了呢，别看我年纪小，其实我懂得可多啦"]
+concept:(time_question) ["现在几点了" "现在的时间是多少"]
+concept:(time_answer) ["现在的时间是北京时间 ^currentTime"]
+concept:(food1) ["我想吃[苹果 香蕉 葡萄 荔枝 西瓜]"]
+concept:(food1_answer) ["好的 $askedFood=$1"]
+concept:(food1_answer2) ["你询问了一种新的水果"]
+u:(~hello) ~hello
+u:(~age_question) ~age_answer
+u:(~time_question) ~time_answer
+u:(~food1) ~food1_answer
+u:(e:askedFood)~food1_answer2
+
+proposal: %love 上海今天是晴天
+concept:(love1) ["今天上海出太阳了吗？"]
+concept:(love1_answer) ["是的, ^enableThenGoto(love)"]
+concept:(love2) ["你确定吗？"]
+concept:(love2_answer) ["非常确定,^enableThenGoto(love)"]
+u:(~love1) ~love1_answer
+u:(~love2) ~love2_answer
